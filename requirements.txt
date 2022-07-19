@@ -28,7 +28,6 @@ jikanpy
 justwatch
 lottie
 lyricsgenius
-markdown
 motor
 moviepy
 nekos.py
