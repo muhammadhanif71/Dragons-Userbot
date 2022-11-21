@@ -252,7 +252,7 @@ async def inline_handler(event):  # sourcery no-metrics
             buttons = [
                 (
                     Button.inline("Stats", data="stats"),
-                    Button.url("Repository", "https://github.com/TeamDragons/Dragons-Userbot"),
+                    Button.url("Repository", "https://github.com/muhammadhanif71/Dragons-Userbot"),
                 )
             ]
             ALIVE_PIC = gvarstatus("ALIVE_PIC")
@@ -528,7 +528,7 @@ async def inline_handler(event):  # sourcery no-metrics
             type="photo",
             title="Dragons-Userbot",
             description="Deploy Sendiri",
-            url="https://github.com/TeamDragons/Dragons-Userbot",
+            url="https://github.com/muhammadhanif71/Dragons-Userbot",
             thumb=photo,
             content=photo,
             send_message=types.InputBotInlineMessageMediaAuto(
