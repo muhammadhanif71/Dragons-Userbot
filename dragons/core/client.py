@@ -141,7 +141,7 @@ class DrgUserBotClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**Dragons-Userbot Error report**\n\n"
-                        link = "[here](https://t.me/Kinguserbotsupport)"
+                        link = "[here](https://t.me/stufsupport)"
                         text += "If you wanna you can report it"
                         text += f"- just forward this message {link}.\n"
                         text += (
