@@ -9,7 +9,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "beta"
 __license__ = "MIT License"
-__author__ = "Dragons-Userbot <https://github.com/TeamDragons/Dragons-Userbot>"
+__author__ = "Dragons-Userbot <https://github.com/muhammadhanif71/Dragons-Userbot>"
 __copyright__ = "(C) Copyright 2021 TeamDragons  " + __author__
 
 drgub.version = __version__
@@ -21,7 +21,7 @@ StartTime = time.time()
 drgversion = "beta"
 
 if Config.UPSTREAM_REPO == "dragons":
-    UPSTREAM_REPO_URL = "https://github.com/TeamDragons/Dragons-Userbot"
+    UPSTREAM_REPO_URL = "https://github.com/muhammadhanif71/Dragons-Userbot"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
