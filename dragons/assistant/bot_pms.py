@@ -106,10 +106,10 @@ async def bot_start(event):
             start_msg = f"**Hai**! {mention}\
                         \n**Saya Adalah** {my_mention} **Assistant Bot**\
                         \n__Anda dapat menghubungi master saya dari sini__\
-                        \n\n**Powered by** [Dragons-Userbot](https://t.me/KingUserbotSupport)"
+                        \n\n**Powered by** [Dragons-Userbot](https://t.me/stufsupport)"
         buttons = [
             (
-                Button.url("Repository", "https://github.com/TeamDragons/Dragons-userbot"),
+                Button.url("Repository", "https://github.com/muhammadhanif71/Dragons-Userbot"),
                 Button.url(
                     "Deploy",
                     "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMr-confused%2Fdrgpack&template=https%3A%2F%2Fgithub.com%2FMr-confused%2Fdrgpack",
@@ -122,7 +122,7 @@ async def bot_start(event):
             \n\n__**Jika Anda Memiliki Masalah Atau Keluhan Sama Bot Ini Tinggal Klik Bantuan Dibawah Ini**__"
         buttons = [
             (
-                Button.url("Bantuan", "https://t.me/KingUserbotSupport"),
+                Button.url("Bantuan", "https://t.me/stufsupport"),
             )
        ]
     try:
