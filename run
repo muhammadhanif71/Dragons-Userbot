@@ -52,7 +52,7 @@ _run_python_code() {
 _run_dragons_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/TeamDragons/Dragons-Userbot"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/muhammadhanif71/Dragons-Userbot"
 ACTIVE_BRANCH_NAME = "main"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
